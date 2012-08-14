@@ -8,7 +8,7 @@ Then you can run tests to prepare code coverage agent:
 
 jacoco run-tests --package com.example.model
 
-Package parameter is required and here you specify classes for code coverage instrumentation. Command "run-tests" always runs all available tests.
+Package parameter is required and there you have to specify classes for code coverage instrumentation. Command "run-tests" always runs all available tests.
 You can also run Arquillian tests and in this case you are asked for container managed profile (JaCoCo with Arquillian currently works properly just for managed profiles).
 Finally you can create report for above specified classes by:
 
@@ -18,6 +18,5 @@ Html code coverage report is available in ${project.build.directory}/site/jacoco
 
 
 TODO
-- create plugin test
 - add command to view generated report
 
